@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
     <flow name="maven-projectFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="maven-Flow"/>
-        <set-payload value="#['Hello World']" doc:name="Set Payload"/>
+        <set-payload value="#['Hello Srinivas']" doc:name="Set Payload"/>
     </flow>
 </mule>
